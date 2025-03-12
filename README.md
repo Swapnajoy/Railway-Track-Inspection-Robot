@@ -6,9 +6,9 @@ The project was a collaborative effort with a total of six contributors and was 
 
 ## Assembled Hardware
 
-<div style="text-align: center;">
+<p align="center">
   <img src="img/Assembly_view1.jpg" alt="Assembled Robot" width="500"/>
-</div>
+</p>
 
 ## Overview
 The work involved the design and development of railway track-inspection robotic system. The following hardware and software were used:
@@ -36,7 +36,9 @@ The following ML models were tested to solve the problem of classification: Logi
 
 Image capturing was done using a moving vehicle, that was controlled by an on-board computer. The camera interfaced to the computer was enabled at regular intervals and the images are recorded accordingly. The features were extracted from the images and the classification was carried out in real-time. The process flowchart is as follows:
 
-<img src="img/Process_flowchart.jpg" alt="Process Flowchart" width="1000"/>
+<p align="center">
+  <img src="img/Process_flowchart.jpg" alt="Process Flowchart" width="500"/>
+</p>
 
 ## Project Structure
 
@@ -64,5 +66,5 @@ Image capturing was done using a moving vehicle, that was controlled by an on-bo
 - `scikit-learn`
 - `opencv-python`
 - `numpy`
-- `matplotlib`
+- `seaborn`
 - Other necessary libraries listed in `requirements.txt`.
