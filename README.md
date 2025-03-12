@@ -1,4 +1,5 @@
 # Railway-Track-Inspection-Robot
+
 This repository contains the code for a robotic system that was developed as part of a team project during my Bachelor's degree. My main contribution focused on the **Machine Learning-based Computer Vision** approach for **crack detection on railway tracks**, including code for **image loading**, **feature extraction**, and **training classification models**.
 
 The project was a collaborative effort with a total of six contributors.The project was awarded a **patent** under the title "A ROBOTIC SYSTEM FOR INSPECTION OF RAILWAY TRACKS" (Patent granted December 2024 by The Patent Office, Government of India). You can find the patent certificate in the `docs/` folder.
@@ -27,7 +28,7 @@ The dataset consisted of 240 images of joints and cracks. To build the dataset c
 
 ## Machine Learning Approach for Classification
 
-The following ML models were tested to solve the problem of classification: Logistic Regression (LR), Linear Discriminant Analysis (LDA), K-Nearest Neighbors (KNN), Decision Trees (DT), Random Forests (RF), Gaussian Naïve Bayes (GNB), Support Vector Machine (SVM). To predict ML Model’s accuracy, K-fold cross validation technique was used. In this, if we chose K=5, the entire data was split into 4 training parts and 1 testing part, uniquely for each round up to 5 times. Based on this, the model accuracy for all ML models are generated for a 240-image dataset and based on the comparison plot Logistic Regression was finalized.
+The following ML models were tested to solve the problem of classification: Logistic Regression (LR), Linear Discriminant Analysis (LDA), K-Nearest Neighbors (KNN), Decision Trees (DT), Random Forests (RF), Gaussian Naïve Bayes (GNB), Support Vector Machine (SVM). To predict ML Model’s accuracy, K-fold cross validation technique was used. In this, if we chose K=5, the entire data was split into 4 training parts and 1 testing part, uniquely for each round up to 5 times. Based on this, the model accuracy for all ML models are generated and based on the comparison plot Logistic Regression was finalized.
 
 ## Edge Inferencing
 
