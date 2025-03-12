@@ -3,6 +3,10 @@ This repository contains the code for a robotic system that was developed as par
 
 The project was a collaborative effort with a total of six contributors.The project was awarded a **patent** under the title "A ROBOTIC SYSTEM FOR INSPECTION OF RAILWAY TRACKS" (Patent granted December 2024 by The Patent Office, Government of India). You can find the patent certificate in the `docs/` folder.
 
+## Assembled Hardware
+
+<img src="img/Assembly_view1.jpg" alt="Assembled Robot" width="500"/>
+
 ## Overview
 The work involves the design and development of railway tracks-inspection robotic system. The following hardware and software are used:
 
@@ -14,7 +18,7 @@ A. Hardware:
   
 B. Software: 
 
-Python and OpenCV are used for the ML and IP codes, respectively. 
+Python and OpenCV are used for the ML and IP codes, respectively.
 
 
 ## Project Structure
