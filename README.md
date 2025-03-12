@@ -38,7 +38,7 @@ Image capturing is done using a moving vehicle, that is controlled by an on-boar
 ## Project Structure
 
 - `docs/`: Contains the patent certificate.
-- `images/`: Contains the image of the assembled robot.
+- `images/`
 - `src/`: Contains the source code files.
   - `feature-extractor.py`: Code for loading images of joints and cracks, extracting the features and building the dataset with target labels.
   - `classification_models.py`: Code for testing different ML classification models (e.g., Logistic Regression, SVM).
