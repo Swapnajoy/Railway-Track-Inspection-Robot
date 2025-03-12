@@ -30,4 +30,3 @@ Python and OpenCV are used for the ML and IP codes, respectively.
 - `images/`: Contains the image of the assembled robot.
 - `docs/`: Contains the patent certificate.
 - `requirements.txt`: Lists all necessary Python libraries for the project.
-- `.gitignore`: Lists files/folders to ignore.
